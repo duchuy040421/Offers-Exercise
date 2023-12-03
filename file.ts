@@ -1,8 +1,8 @@
-import * as fs from 'fs';
+import * as fs from "fs";
 
 class File {
     input(fileName: string): any {
-        const rawData = fs.readFileSync(fileName, 'utf-8');
+        const rawData = fs.readFileSync(fileName, "utf-8");
         return rawData;
     }
 
